@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10px"
+    android:padding="50px"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:layout_marginTop="50px"
+        android:id="@+id/edittext_name_id"
+        android:layout_marginBottom="20px"
+        android:hint="name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="10px"
+        android:id="@+id/edittext_age_id"
+        android:layout_marginBottom="20px"
+        android:hint="Age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/save_btn_id"
+        android:textAllCaps="false"
+        android:text="save Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/load_btn_id"
+        android:textAllCaps="false"
+        android:text="Load Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
